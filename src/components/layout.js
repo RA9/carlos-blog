@@ -63,9 +63,8 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()},   Developed by <i>
-          {` `}
-          <a href="https://gitjub.com/ra9">Carlos S. Nah Jr.</a>
+          © {new Date().getFullYear()},   Developed by 
+          <a href="https://gitjub.com/ra9">Carlos S. Nah Jr</a>
         </footer>
       </div>
     )
