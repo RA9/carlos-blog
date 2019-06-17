@@ -7,7 +7,7 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    let header
+    let header;
 
     if (location.pathname === rootPath) {
       header = (
@@ -63,8 +63,8 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()},   Developed by 
-          <a href="https://gitjub.com/ra9">Carlos S. Nah Jr</a>
+          © {new Date().getFullYear()},  Developed by {` `}
+          <a href="https://github.com/ra9">Carlos S. Nah Jr</a>
         </footer>
       </div>
     )

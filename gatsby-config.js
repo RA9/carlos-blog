@@ -60,7 +60,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Deep Dive`,
-        short_name: `GatsbyJS`,
+        short_name: `DDTech`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
